@@ -1,3 +1,5 @@
+// SNACK 1
+
 const bike = [{
     name: "bike1",
     weight: 10
@@ -24,3 +26,28 @@ let {name, weight} = light_bike;
 
 let text = `La bici più leggera è la ${name} e pesa ${weight}`;
 console.log(text);
+
+// SNACK 2
+
+var teams = [{
+    name: "Stoke City",
+    score: 0,
+    fouls: 0
+},
+{
+    name: "Wolfsburg",
+    score: 0,
+    fouls: 0
+},
+{
+    name: "Valencia",
+    score: 0,
+    fouls: 0
+},
+{
+    name: "O. Lyon",
+    score: 0,
+    fouls: 0
+}
+];
+
