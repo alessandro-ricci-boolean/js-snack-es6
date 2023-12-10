@@ -51,3 +51,24 @@ var teams = [{
 }
 ];
 
+function randomNumber(min, max){
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+teams.forEach((elem) => {
+    elem.score = randomNumber(20,90);
+    elem.fouls = randomNumber(20,40);
+});
+
+let newTeams = [];
+
+teams.forEach((elem) => {
+    let { name, fouls, } = elem;
+    let team = {
+        name,
+        fouls
+    }
+    newTeams.push(team)
+});
+
+console.log(newTeams);
